@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Parcial2DDA.Data;
+using ProyectoAPISimple.Data;
 
 #nullable disable
 
-namespace Parcial2DDA.Migrations
+namespace ProyectoAPISimple.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace Parcial2DDA.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Parcial2DDA.Models.Ejemplo", b =>
+            modelBuilder.Entity("ProyectoAPISimple.Models.Ejemplo", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -35,7 +35,7 @@ namespace Parcial2DDA.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Ejemplos");
+                    b.ToTable("Ejemplos", (string)null);
                 });
 #pragma warning restore 612, 618
         }

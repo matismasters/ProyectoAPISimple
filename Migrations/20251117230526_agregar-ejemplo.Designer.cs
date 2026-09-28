@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Parcial2DDA.Data;
+using ProyectoAPISimple.Data;
 
 #nullable disable
 
-namespace Parcial2DDA.Migrations
+namespace ProyectoAPISimple.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20251117230526_agregar-ejemplo")]
@@ -24,7 +24,7 @@ namespace Parcial2DDA.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Parcial2DDA.Models.Ejemplo", b =>
+            modelBuilder.Entity("ProyectoAPISimple.Models.Ejemplo", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

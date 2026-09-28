@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Parcial2DDA.Models;
+using ProyectoAPISimple.Models;
 
-namespace Parcial2DDA.Data
+namespace ProyectoAPISimple.Data
 {
     public class AppDbContext : DbContext
     {

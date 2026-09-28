@@ -1,4 +1,4 @@
-namespace Parcial2DDA
+namespace ProyectoAPISimple
 {
     public class WeatherForecast
     {

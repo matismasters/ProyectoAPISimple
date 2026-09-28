@@ -1,4 +1,4 @@
-﻿namespace Parcial2DDA.Models
+﻿namespace ProyectoAPISimple.Models
 {
     public class Ejemplo
     {

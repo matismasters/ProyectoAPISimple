@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Parcial2DDA.Controllers
+namespace ProyectoAPISimple.Controllers
 {
     [ApiController]
     [Route("[controller]")]

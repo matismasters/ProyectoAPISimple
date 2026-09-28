@@ -1,6 +1,0 @@
-@Parcial2DDA_HostAddress = http://localhost:5069
-
-GET {{Parcial2DDA_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

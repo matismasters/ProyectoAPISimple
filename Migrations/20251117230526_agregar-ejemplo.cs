@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Parcial2DDA.Migrations
+namespace ProyectoAPISimple.Migrations
 {
     /// <inheritdoc />
     public partial class agregarejemplo : Migration

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Parcial2DDA.Data;
+using ProyectoAPISimple.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
